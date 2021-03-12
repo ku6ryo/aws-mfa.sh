@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # Simple script to get AWS credentials in console with Multi-Factor Authentication.
-# How you run
+# THIS SCRIPT JUST PRINTS EXPORT COMMANDS. PLEASE COPY THE COMMANDS AND EXECUTE BY YOURSELF.
+#
+# Command
+# ./aws-mfa [YOUR_PROFLE_NAME] [YOUR_ACR] [MFA_CODE]
+# Example
 # ./aws-mfa.sh my-profile arn:aws:iam::xxxxxxxxxxxx:mfa/yyyyyyyyyyyyyyyyy 123456
 
 # Set profile name as you like
